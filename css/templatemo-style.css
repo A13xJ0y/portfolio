@@ -25,6 +25,30 @@ p {
   line-height: 1.8;
 }
 
+.image-grid {
+	--gap: 16px;
+	--num-cols: 2;
+	--row-height: 225px;
+
+	box-sizing: border-box;
+
+	display: grid;
+	grid-template-columns: repeat(var(--num-cols), 1fr);
+	grid-auto-rows: var(--row-height);
+	gap: var(--gap);
+}
+
+.image-grid>a {
+	margin: auto;
+	width: 75%;
+	object-fit: cover;
+}
+.image-grid>a>img {
+	margin: auto;
+	width: 100%;
+	object-fit: cover;
+}
+
 .tm-primary-color {
   color: #61AEAE;
 }
@@ -103,6 +127,12 @@ p {
   font-size: 1.5rem;
   margin-bottom: 40px;
   color: #656667;
+}
+
+.game-title {
+	font-size: 2rem;
+  margin-bottom: 0px;
+  color: #000000;
 }
 
 .tm-img {
@@ -245,7 +275,7 @@ figure.effect-bubba figcaption::after {
 }
 
 figure.effect-bubba h2 {
-	font-size: 1.5rem;	
+	font-size: 1.4rem;	
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 	-webkit-transform: translate3d(0,-5px,0);
