@@ -40,7 +40,7 @@ p {
 }
 
 .tm-section {
-  margin-bottom: 155px;
+  margin-bottom: 75px;
   position: relative;
 }
 
@@ -109,6 +109,11 @@ p {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;  
 }
+
+iframe {
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;  
+  }
 
 footer {
   font-size: 1rem;
