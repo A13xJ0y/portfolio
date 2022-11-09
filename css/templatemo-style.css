@@ -1,8 +1,3 @@
-/*
-Verticard Template
-https://templatemo.com/tm-533-verticard
-*/
-
 body {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 18px;
@@ -64,7 +59,7 @@ p {
 }
 
 .tm-section {
-  margin-bottom: 75px;
+  margin-bottom: 40px;
   position: relative;
 }
 
