@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>A13xJ0y</title>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/templatemo-style.css" />
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <div class="tm-page-container mx-auto">
+      <header class="tm-header text-center">
+        <h1 class="game-title">Island</h1>
+        <h3>
+          <a href="builds/island.rar" download>Скачать игру для PC!</a>
+        </h3>
+      </header>
+
+      <!-- First Gameplay video Section -->
+      <section class="tm-section">
+        <!-- Navigation Bar -->
+        <nav class="tm-nav">
+          <ul>
+            <li>
+              <a href="gallery.html"><span class="tm-nav-deco"></span>Назад</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="tm-content-container">
+          <figure class="mb-0">
+            <iframe
+              width="100%"
+              height="320px"
+              src="https://www.youtube.com/embed/OJ4myp348cI?controls=0&mute=1&autoplay=1&playlist=OJ4myp348cI&loop=1"
+              title="YouTube video player"
+              frameborder="0"
+              allow="clipboard-write; encrypted-media; fullscreen"
+            ></iframe>
+          </figure>
+          <div class="tm-content">
+            <h2 class="tm-page-title">Core Gameplay Loop</h2>
+            <p class="mb-4">
+              <strong>Island</strong> - showcase игры в жанре Survival, где
+              игрок оказывается на необитаемом острове - полигоне,
+              предназначенном для демонстрации основных механик. Это первый
+              прототип, в котором я реализовал полноценную систему инвентаря и
+              крафта.
+            </p>
+            <p class="mb-4"></p>
+
+            <p class="mb-4">
+              Игрок появляется в воде. Под водой долго находиться нельзя,
+              поэтому ему необходимо сразу же выплыть на поверхность и на берег
+              острова. На острове есть несколько деревьев и лежат несколько
+              палок. Деревья можно добыть, а палки подобрать. Из трех палок
+              делается лук, который использует такие же палки в качестве стрел.
+              На полигоне есть мишень для тренировки точности и несколько белых
+              строений, которые разлетаются если в них выстрелить из лука.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="tm-section">
+        <div class="tm-content-container">
+          <figure class="mb-0">
+            <img
+              src="img/island/screenshot_1.jpg"
+              alt="Image"
+              class="img-fluid tm-img"
+            />
+          </figure>
+          <div class="tm-content">
+            <h2 class="tm-page-title">Интерфейс</h2>
+            <p class="mb-4">
+              Когда игрок под водой, по центру экрана появляется круглый
+              индикатор кислорода, по истечении которого игрок тонет и игра
+              начинается заново. В меню есть кнопки <strong>Exit</strong> и
+              <strong>Reload</strong>, на которые можно выйти из игры и
+              перезагрузить уровень, соответственно. Ниже кнопок показаны слоты
+              инвентаря, в которых предметы отображаются схематичными
+              картинками. По центру меню <strong>Crafting</strong>, где можно
+              создать лук. Снизу показана схема управления и справа есть
+              небольшой совет о том что лезть в воду не долго не стоит.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="tm-section">
+        <div class="tm-content-container">
+          <div class="tm-content">
+            <h2 class="tm-page-title">Управление</h2>
+            <p class="mb-4">
+              На кнопку <strong>E</strong> игрок подбирает предметы или добывает
+              дерево. На <strong>Ctrl</strong> можно присесть, а на
+              <strong>Shift</strong> ускориться. Имея лук в руках чтобы стрелять
+              на <strong>ЛКМ</strong> нужно сначала прицелиться, нажав
+              <strong>ПКМ</strong>.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Screenshot section -->
+      <div class="tm-section">
+        <div class="tm-content-container">
+          <div class="tm-content tm-content-2">
+            <p>Галерея Скриншотов Island:</p>
+
+            <div class="container-fluid">
+              <div class="row tm-gallery" id="tmGallery">
+                <div class="col-sm-6 tm-gallery-item">
+                  <figure>
+                    <img
+                      src="img/island/screenshot_1.jpg"
+                      alt="Gallery item"
+                      class="img-fluid"
+                    />
+                    <figcaption>
+                      <a
+                        href="img/island/screenshot_1.jpg"
+                        title="Меню и инвентарь."
+                      ></a>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="col-sm-6 tm-gallery-item">
+                  <figure>
+                    <img
+                      src="img/island/screenshot_2.jpg"
+                      alt="Gallery item"
+                      class="img-fluid"
+                    />
+                    <figcaption>
+                      <a
+                        href="img/island/screenshot_2.jpg"
+                        title="Белые конструкции с эмуляцией физики."
+                      ></a>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="col-sm-6 tm-gallery-item">
+                  <figure>
+                    <img
+                      src="img/island/screenshot_3.jpg"
+                      alt="Gallery item"
+                      class="img-fluid"
+                    />
+                    <figcaption>
+                      <a
+                        href="img/island/screenshot_3.jpg"
+                        title="Игрок под водой."
+                      ></a>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="col-sm-6 tm-gallery-item">
+                  <figure>
+                    <img
+                      src="img/island/screenshot_4.jpg"
+                      alt="Gallery item"
+                      class="img-fluid"
+                    />
+                    <figcaption>
+                      <a
+                        href="img/island/screenshot_4.jpg"
+                        title="Мишень со стрелами."
+                      ></a>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="col-sm-6 tm-gallery-item">
+                  <figure>
+                    <img
+                      src="img/island/screenshot_5.jpg"
+                      alt="Gallery item"
+                      class="img-fluid"
+                    />
+                    <figcaption>
+                      <a
+                        href="img/island/screenshot_5.jpg"
+                        title="Дерево со стрелами."
+                      ></a>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="col-sm-6 tm-gallery-item">
+                  <figure>
+                    <img
+                      src="img/island/screenshot_6.jpg"
+                      alt="Gallery item"
+                      class="img-fluid"
+                    />
+                    <figcaption>
+                      <a
+                        href="img/island/screenshot_6.jpg"
+                        title="Стойка с палками."
+                      ></a>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <span>It's ya boi @A13xJ0y </span>
+    </footer>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // Magnific Pop up
+        // https://dimsemenov.com/plugins/magnific-popup/
+        $(".tm-gallery").magnificPopup({
+          delegate: "a", // child items selector, by clicking on it popup will open
+          type: "image",
+          gallery: {
+            enabled: true,
+          },
+        });
+      });
+    </script>
+  </body>
+</html>
